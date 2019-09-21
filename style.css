@@ -1,0 +1,39 @@
+html{ 
+    height: 100%;
+}
+
+body{
+    background-color: #cc1718;
+}
+header{
+    background-color: #589FCC;
+}
+nav{
+    background-color: #2977b3;
+}
+main{
+    background-color: #589FCC;
+}
+article img{
+    width :100%;
+    max-width: 250px;
+}
+article{
+    background-color: #800206;
+}
+footer{
+    background-color: aqua;
+    text-decoration-color: #000000;
+}
+main h2{
+    color: aqua;
+    background-color: #146699;
+
+}
+.line1{ 
+    background-color: cadetblue;
+}
+.line2{
+    background-color: #146699;
+
+}
