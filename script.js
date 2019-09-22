@@ -8,10 +8,10 @@ console.log('Hi, ' + username + '!');
 
 document.write('<p>Hi, Chef  ' + username + '<p>');
 
-var wantToEat = prompt('We are so glad you are hear. Are you new to different cuisines?');
+var wantToEat = prompt('We are so glad you are hear. Is your name Michael Aunspaugh? Type Yes/No');
 
 if (wantToEat === 'Yes'){
-  document.write('<p>We are so excited! Head over to one of the regions to find out more.</p>');
+  document.write('<p>Miss you Bro!.</p>');
 } else {
   document.write('<p>Thank you for stopping by, we hope you can enjoy some of the dishes!</p>');
 }
