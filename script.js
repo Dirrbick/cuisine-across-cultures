@@ -3,10 +3,10 @@
 var username = prompt('Welcome! What is your name?');
 
 console.log(username);
-console.log('Hi, Chef ' + username + '!');
+console.log('Hi, ' + username + '!');
 
 
-document.write('<p>Hi, ' + username + '<p>');
+document.write('<p>Hi, Chef  ' + username + '<p>');
 
 var wantToEat = prompt('We are so glad you are hear. Are you new to different cuisines?');
 
