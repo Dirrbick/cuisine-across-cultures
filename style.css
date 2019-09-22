@@ -3,15 +3,22 @@ html{
 }
 
 body{
-    background-color: #cc1718;
+    background-color: #e8bd6f;
     box-sizing: border-box;
 
 }
-header{
-    background-color: #589FCC;
+h1{ background-color: #f44424;
+    border: 9px ridge #800206;
+    height: 50px;
+    width: 800px;
+
 }
 nav{
-    background-color: #2977b3;
+    background-color: #ffff87;
+    border: 9px inset #f44424;
+    height: 40px;
+    width: 600px;
+
 }
 main{
 }
@@ -25,10 +32,33 @@ article{
 
 }
 footer{
-    background-color: navy;
-    text-decoration-color: #000000;
+    background-color: #ffff87;
 }
 main h2{
     color: navy;
+
+}
+.pasta{
+    border: 9px ridge #f44424;
+    height: 400px;
+    width: 350px;
+
+}
+.indian{
+    border: 9px ridge #f44424;
+    height: 400px;
+    width: 350px;
+
+}
+.tacos{
+    border: 9px ridge #f44424;
+    height: 400px;
+    width: 350px;
+
+}
+.burger{
+    border: 9px ridge #f44424;
+    height: 400px;
+    width: 350px;
 
 }
