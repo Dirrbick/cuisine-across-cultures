@@ -4,6 +4,8 @@ html{
 
 body{
     background-color: #cc1718;
+    box-sizing: border-box;
+
 }
 header{
     background-color: #589FCC;
@@ -12,7 +14,6 @@ nav{
     background-color: #2977b3;
 }
 main{
-    background-color: #589FCC;
 }
 article img{
     width :100%;
@@ -20,20 +21,14 @@ article img{
 }
 article{
     background-color: #800206;
+    box-sizing: border-box;
+
 }
 footer{
-    background-color: aqua;
+    background-color: navy;
     text-decoration-color: #000000;
 }
 main h2{
-    color: aqua;
-    background-color: #146699;
-
-}
-.line1{ 
-    background-color: cadetblue;
-}
-.line2{
-    background-color: #146699;
+    color: navy;
 
 }
