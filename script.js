@@ -3,7 +3,7 @@
 var username = prompt('Welcome! What is your name?');
 
 console.log(username);
-console.log('Hi, ' + username + '!');
+console.log('Hi, Chef ' + username + '!');
 
 
 document.write('<p>Hi, ' + username + '<p>');
