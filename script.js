@@ -3,15 +3,15 @@
 var username = prompt('Welcome! What is your name?');
 
 console.log(username);
-console.log('Hi, ' + username + '!');
+console.log('Welcome, Chef  ' + username + '!');
 
 
-document.write('<p>Hi, Chef  ' + username + '<p>');
+document.write('<p>Welcome, Chef  ' + username + '<p>');
 
-var wantToEat = prompt('We are so glad you are hear. Is your name Michael Aunspaugh? Type Yes/No');
+var wantToEat = prompt('We are so glad you are hear. How many years of cooking experience do you have?');
 
-if (wantToEat === 'Yes'){
-  document.write('<p>Miss you Bro!.</p>');
+if (wantToEat > 3){
+  document.write('<p>Enjoy our recipes! Feel free to email suggestions.</p>');
 } else {
-  document.write('<p>Thank you for stopping by, we hope you can enjoy some of the dishes!</p>');
+  document.write('<p>We hope you enjoy our dishes! Feel free to contact us on any questions with the recipes.</p>');
 }

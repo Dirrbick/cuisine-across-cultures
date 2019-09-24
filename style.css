@@ -23,13 +23,12 @@ nav{
 main{
 }
 article img{
+    float: left;
     width :100%;
-    max-width: 250px;
+    max-width: 300px;
 }
 article{
     background-color: #800206;
-    box-sizing: border-box;
-
 }
 footer{
     background-color: #ffff87;
@@ -40,25 +39,25 @@ main h2{
 }
 .pasta{
     border: 9px ridge #f44424;
-    height: 400px;
-    width: 350px;
+    height: 250px;
+    width: 600px;
 
 }
 .indian{
     border: 9px ridge #f44424;
-    height: 400px;
-    width: 350px;
+    height: 250px;
+    width: 600px;
 
 }
 .tacos{
     border: 9px ridge #f44424;
-    height: 400px;
-    width: 350px;
+    height: 250px;
+    width: 600px;
 
 }
 .burger{
     border: 9px ridge #f44424;
-    height: 400px;
-    width: 350px;
+    height: 250px;
+    width: 600px;
 
 }
