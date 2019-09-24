@@ -15,3 +15,14 @@ if (wantToEat > 3){
 } else {
   document.write('<p>We hope you enjoy our dishes! Feel free to contact us on any questions with the recipes.</p>');
 }
+
+function makeSandwich (meat, cheese, bread) {
+//  work goes in here
+var newSandwich =  'Here is your beautiful sandwich. It has ' + meat + ' 'and ' + cheese + 'on' + bread + '.'';
+// tell JavaScript to return
+return newSandwich;
+}
+
+// "call" (or run) the function with these specific input values (aka "arguments")
+var korySandwich = makeSandwich("turkey", "pepperjack", "wheat");
+console.log(korySandwich);
