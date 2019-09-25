@@ -19,9 +19,8 @@ nav{
     background-color: #ffff87;
     border: 9px inset #f44424;
     height: 40px;
-    width: 525px;
-    margin: 1.5em 22em 0 25em;
-    text-align: center;
+    width: 575px;
+    margin: 1.50em 20em 0 24em;
     vertical-align: middle;
 }
 article img{
@@ -56,7 +55,8 @@ button {
     padding: 0 40px;
     background: navy;
     border: 3px solid skyblue;
-    margin: 0 0 0 25.5em;
+    margin: 0 0 0 18.75em;
+    font-size: large;
 }
 button:hover {
     background: lightblue;
