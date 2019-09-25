@@ -11,20 +11,22 @@ h1{ background-color: #f44424;
     border: 9px ridge #800206;
     height: 50px;
     width: 800px;
-
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0 0 8em;
 }
 nav{
     background-color: #ffff87;
     border: 9px inset #f44424;
     height: 40px;
     width: 525px;
-    margin: 0 0 0 9em;
-
-}
-main{
+    margin: 1.5em 22em 0 25em;
+    text-align: center;
+    vertical-align: middle;
 }
 article img{
     float: left;
+    padding-right: 11px;
     width :100%;
     max-width: 300px;
 }
@@ -33,15 +35,19 @@ article{
     border: 9px ridge #f44424;
     height: 250px;
     width: 600px;
-    margin: 4em 24em 4em 24em;
-    padding: 4em 2em 2em 2em;    
+    margin: 4em 24em 4em 21em;
+    padding: 4em 2em 2em 2em;
+    vertical-align: middle;  
 }
 footer{
     background-color: #ffff87;
 }
 main h2{
     color: navy;
-
+    padding-left: 520px;
+}
+main p{
+    padding-left: 340px;
 }
 button {
     margin-top: 20px;
@@ -50,6 +56,7 @@ button {
     padding: 0 40px;
     background: navy;
     border: 3px solid skyblue;
+    margin: 0 0 0 25.5em;
 }
 button:hover {
     background: lightblue;
