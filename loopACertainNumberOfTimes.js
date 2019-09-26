@@ -23,9 +23,24 @@ function createRecipe (name, time, origin, ingredients) {
   return newRecipe;
 }
 
-var wantsToAddRecipe = prompt('Do you want to add a new recipe?');
+var wantsToAddRecipe = prompt('Do you want to add new recipe?');
 
-if (wantsToAddRecipe === 'Yes') {
+var numberOfRecipes = prompt('How many recipes do you want to add?');
+
+// while (numberOfRecipes >  0) {
+//   var recipeName = prompt('What is the recipe name?');
+//   var recipeTime = prompt('What is the total cook time?');
+//   var recipeOrigin = prompt('Which region is this from?');
+//   var recipeIngredients = prompt('Please list the ingredients.');
+
+//   var newRecipeHTML = createRecipe(recipeName, recipeTime, recipeOrigin, recipeIngredients);
+
+//   document.write(newRecipeHTML);
+
+//   numberOfRecipes--;
+// }
+
+for (numberOfRecipes; numberOfRecipes >  0; numberOfRecipes--) {
   var recipeName = prompt('What is the recipe name?');
   var recipeTime = prompt('What is the total cook time?');
   var recipeOrigin = prompt('Which region is this from?');
@@ -35,4 +50,3 @@ if (wantsToAddRecipe === 'Yes') {
 
   document.write(newRecipeHTML);
 }
-
