@@ -1,8 +1,4 @@
-'use strict';
-// input: (name, origin, ingredients)
-// work:v
-// output:"<article class=burger>
-
+'use strict'
 function createRecipe (name, time, origin, ingredients) {
   var newRecipe = '<article>' +
         '<img src=burger.jpg>' +
@@ -22,8 +18,6 @@ function createRecipe (name, time, origin, ingredients) {
         '</article>';
   return newRecipe;
 }
-
-var wantsToAddRecipe = prompt('Do you want to add new recipe?');
 
 var numberOfRecipes = prompt('How many recipes do you want to add?');
 

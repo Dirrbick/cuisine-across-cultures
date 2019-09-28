@@ -34,6 +34,6 @@ while (wantsToAddRecipe === 'Yes') {
   var newRecipeHTML = createRecipe(recipeName, recipeTime, recipeOrigin, recipeIngredients);
 
   document.write(newRecipeHTML);
-// added watsToAddRecipe at the end to continue the loop
-  wantsToAddRecipe = prompt('do you want to add a new recipe?')
+  // added watsToAddRecipe at the end to continue the loop
+  wantsToAddRecipe = prompt('do you want to add a new recipe?');
 }
